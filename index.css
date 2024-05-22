@@ -8,13 +8,18 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     min-height: 100vh;
+}
+
+h1, h2 {
+    color: #E7E9EA;
 }
 
 #logo {
     position: relative;
     top: 2rem;
+    margin-left: 2rem;
 }
 
 #googleLogo {
@@ -24,7 +29,8 @@ body {
 
 #appleLogo {
     height: 1.2rem;
-    width: 8%;
+    width: 7.5%;
+    margin-right: 3%;
 }
 
 button {
@@ -39,41 +45,85 @@ button {
     border-radius: 2rem;
 }
 
+#newAccountBtn {
+    background-color: #1D9BF0;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
 #mainSection {
+    position: relative;
     display: flex;
     flex-direction: column;
-    position: relative;
+    align-items: left;
 }
 
 #happeningNow {
     margin-top: 5rem;
+    margin-left: 2rem;
     font-size: 180%;
     max-width: fit-content;
     max-height: fit-content;
 }
 
 #joinToday {
-    margin-top: 3rem;
+    margin-top: 2.4rem;
     margin-bottom: 1.2rem;
+    margin-left: 2rem;
     width: 75vw;
 }
 
 #signUp {
-    max-width: 60vw;
+    max-width: 70vw;
+    margin-left: 2rem;
+}
+
+.signUpBtn {
+    background-color: #FFFFFF;
+    font-weight: 700;
+    color: #0F1419;
+}
+
+#signInBtn {
+    margin-top: 1rem;
+    background-color: black;
+    color: #1D9BF0;
+    border: solid grey 1px;
+    font-weight: 700;
 }
 
 #or {
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #2F3336; 
+    line-height: 0.1rem;
+    color: #E7E9EA;
+    font-size: 84%;
+}
+
+#or span {
+    background-color: black;
+    padding-inline: 0.6rem;
 }
 
 #agreeTerms {
     font-size: 60%;
-    margin-top: 1%;
+    margin-top: 0.5rem;
+    color: grey;
+}
+
+.blueText {
+    color: #1D9BF0;
 }
 
 #already {
     margin-top: 3rem;
-    font-weight: 500;
+    font-weight: 600;
+    color: #E7E9EA;
 }
 
 footer {

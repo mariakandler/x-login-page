@@ -12,14 +12,28 @@ body {
     min-height: 100vh;
 }
 
-img {
+#logo {
     position: relative;
     top: 2rem;
 }
 
+#googleLogo {
+    height: 2rem;
+    width: 13%;
+}
+
+#appleLogo {
+    height: 1.2rem;
+    width: 8%;
+}
+
 button {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 2.5rem;
     padding: 2.7%;
     margin-top: 0.3rem;
     border-radius: 2rem;
@@ -45,7 +59,7 @@ button {
 }
 
 #signUp {
-    max-width: 73vw;
+    max-width: 60vw;
 }
 
 #or {
